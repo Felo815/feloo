@@ -1,0 +1,62 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+/* تنسيق العنوان */
+h2 {
+    color: #333;
+}
+
+/* تنسيق الحاوية */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* تنسيق رؤوس الجدول */
+thead tr {
+    background: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+/* تنسيق الخلايا */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* تلوين الصفوف بالتناوب */
+tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+
+/* تأثير عند تمرير الماوس */
+tbody tr:hover {
+    background: #d1ecf1;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: auto; /* يحافظ على الأبعاد الأصلية */
+    margin: 20px auto; /* توسيط اللوجو */
+  }
